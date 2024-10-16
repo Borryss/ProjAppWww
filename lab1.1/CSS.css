@@ -1,8 +1,8 @@
 /* Add a black background color to the top navigation */
 
 h1, h2 {
-    color: #00ff00; /* Яскраво-зелений текст */
-    text-shadow: 0 0 15px #00ff00; /* Зелений світловий ефект для заголовків */
+    color: #00ff00;
+    text-shadow: 0 0 15px #00ff00;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -12,8 +12,6 @@ h1, h2 {
     font-size: 41px;
     text-shadow: 0 0 10px #00ff00;
 }
-
-
 
 .txt2 {
     font-size: 41px;
@@ -30,7 +28,6 @@ h1, h2 {
 .txt4 {
     font-size: 41px;
     margin-top: 340px;
-
 }
 
 .span {
@@ -120,9 +117,9 @@ body {
 }
 
 form {
-    background-color: #0a0f0a; /* Темно-зелений, "некронський" фон */
+    background-color: #0a0f0a;
     padding: 20px;
-    border: 2px solid #008f11; /* Яскраво-зелена обводка */
+    border: 2px solid #008f11;
     border-radius: 10px;
     width: 100%;
     max-width: 600px;
@@ -130,8 +127,7 @@ form {
 }
 
 label {
-    color: #00ff00; /* Яскраво-зелений текст */
-    font-weight: bold;
+    color: #00ff00;
     margin-bottom: 10px;
     display: block;
 }
@@ -142,18 +138,18 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #001a00; /* Дуже темно-зелений фон полів */
-    color: #00ff00; /* Яскраво-зелений текст */
-    border: 1px solid #00ff00; /* Яскраво-зелена обводка полів */
+    background-color: #001a00;
+    color: #00ff00;
+    border: 1px solid #00ff00;
     border-radius: 5px;
     font-size: 16px;
 }
 
 input[type="submit"] {
-    background-color: #004d00; /* Темно-зелена кнопка */
-    color: #00ff00; /* Яскраво-зелений текст кнопки */
+    background-color: #004d00;
+    color: #00ff00;
     padding: 10px 20px;
-    border: 2px solid #00ff00; /* Яскраво-зелена обводка */
+    border: 2px solid #00ff00;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -161,14 +157,21 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #006600; /* Трохи світліший зелений при наведенні */
+    background-color: #006600;
 }
 
 textarea {
-    height: 100px; /* Висота текстового поля */
+    height: 100px;
 }
 
 form input,
 form textarea {
-    box-shadow: 0 0 10px #00ff00; /* Некронська зелена тінь для полів */
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#zegarek, #data {
+    color: #00FF00;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 10px #00FF00;
 }

@@ -8,10 +8,11 @@
 	<meta name="Author" content="Borys Kutsenko" />
 	<title>Największe budynki świata</title>
 	<script src="kolorujtlo.js"></script>
+	<script src="timedate.js"></script>
 </head>
 	
 
-<body>
+<body onload="startclock()">
 
 	<div class="topnav">
   	<a class="active" href="StronaG.html">Strona Główna</a>
@@ -21,6 +22,8 @@
 	<a href="MakkahRoyalClockTower.html">Makkah Royal Clock Tower</a>
 	<a href="Kontakt.html">Kontakt</a>
 	</div>
+	<div id = "zegarek"></div>
+	<div id = "data"></div>
 
 	<form method = "post" name = "background">
 		<input type="button" value = "yelow" onclick="changeBackground('#FFF000')">
